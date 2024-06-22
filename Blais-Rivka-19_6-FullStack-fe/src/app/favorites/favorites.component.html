@@ -1,0 +1,19 @@
+
+<div class="container">
+    <h1 style="    text-align: center;   ">Favorite Cities</h1>
+    <div *ngFor="let city of favoriteCities" class="favorite-city">
+    <div class="sty">  <div class="favorite-city-info">
+        <div>{{ city.LocalizedName }}</div>
+        <div>Temperature: {{ city.temperatureCelsius }}°C</div>
+        <div>Weather: {{ city.weatherText }}</div></div>
+
+      <div class="favorite-city-actions">
+        <button class="btn_  btn-no-border" (click)="deleteFavorite(city.cityKey)"><i class="bi bi-trash3"></i></button>
+      </div>
+      </div>
+
+
+      <hr class="hr-style">
+    </div>
+  </div>
+  

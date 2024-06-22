@@ -1,0 +1,30 @@
+    <div id="weather-container" class="container mt-5">
+    <div class="row">
+      <div class="col-md-6 mx-auto mt-5">
+        <h1 class="text-center mb-4">Weather Search</h1>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" [(ngModel)]="searchQuery" placeholder="Enter city name" />
+          <button class="btn btn-primary" type="button" (click)="searchCities()">Search</button>
+        </div>
+    <div style="display: flex;">
+        <div *ngIf="cities.length" class="mt-4">
+          <ul class="list-group">
+            <li class="list-group-item" *ngFor="let city of cities">
+              {{ city.LocalizedName }}
+            <div>               
+                <button class="btn_  btn-no-border" (click)="addToFavorites(city.Key, city.LocalizedName)"><i class="favorite-icon bi bi-suit-heart-fill"></i></button>          
+                <button class="btn_  btn-no-border" (click)="getCurrentWeather(city.Key)"><i class="bi bi-arrow-right-short"> </i></button>
+            </div>  </ul>
+        </div>
+  
+        <div *ngIf="currentWeather" class="mt-4">
+         <div class="weather-cur"> <h3>Weather:</h3>
+          <p>Temperature: {{ currentWeather.temperatureCelsius }}°C</p>
+          <p>Condition: {{ currentWeather.weatherText }}</p>
+       </div> 
+    </div>
+    </div>
+      </div>
+    </div>
+  </div>
+  

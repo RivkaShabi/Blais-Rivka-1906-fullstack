@@ -1,0 +1,32 @@
+.main{
+    display: flex;
+    margin-top: 50px;
+
+}
+.btn_{
+    height: 50px;
+margin-left: 20px;
+margin-right: 20px;
+}
+.btn-no-border{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+.weather{
+    width: 100%;
+
+}
+.favorite-icon {
+    color: red;
+    font-size: 3rem; 
+  }
+  .square-icon {
+    font-size: 3rem; 
+  }
+  .favorite-icon {
+    font-size: 3rem;
+  }
+  .demo{
+    width: 100%;
+  }

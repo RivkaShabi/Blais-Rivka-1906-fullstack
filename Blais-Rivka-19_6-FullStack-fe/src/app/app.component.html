@@ -1,0 +1,9 @@
+<div class="main">
+  <button class="btn_  btn-no-border" (click)="changeDemo()" ><i id="bi-icon" class="favorite-icon bi bi-heart"></i></button>
+  <div class="demo" *ngIf="!flagDemo">
+    <app-weather  class="weather"></app-weather>
+  </div>
+  <div class="demo" *ngIf="flagDemo">
+  <app-favorites class="favorites"></app-favorites>
+  </div>
+</div>

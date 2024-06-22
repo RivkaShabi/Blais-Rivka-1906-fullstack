@@ -1,0 +1,62 @@
+
+.container {
+    margin-top:50px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 500px;
+    overflow-y: auto;
+  }
+  
+  .sty{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .btn-no-border{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  li:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  
+  .hr-style {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+  }
+  
+  .favorite-city {
+    margin-bottom: 20px;
+  }
+  
+  .favorite-city-info {
+    margin-bottom: 10px;
+  }
+  
+  .favorite-city-actions {
+    margin-top: 10px;
+  }
+  
+  .favorite-city-actions button {
+    margin-right: 10px;
+  }
+ 

@@ -1,0 +1,91 @@
+.container {
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    margin-left: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  li:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  .list-group {
+    height: 400px;
+    overflow-y: auto;
+  }
+  p {
+    margin-bottom: 5px;
+  }
+  .favorite-icon {
+    color: red;
+    font-size: 1.25rem; /* Adjust the size if needed */
+  }
+  /* #weather-container {
+    transition: background-image 0.5s ease-in-out;
+  }
+  
+  .background-hot {
+    background-image: url('../../assets/image/cool.jpg');
+  }
+  
+  .background-warm {
+    background-image: url('../../assets/image/cool.jpg');
+  }
+  
+  .background-cool {
+    background-image: url('../../assets/image/cool.jpg');
+  }
+  
+  .background-cold {
+    background-image: url('../../assets/image/cool.jpg');
+  } */
+  .favorite-icon .bi {
+    color: red;
+    font-size: 1rem; 
+  }
+  .btn_{
+    height: 50px;
+margin-left: 20px;
+margin-right: 20px;
+}
+.btn-no-border{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+.weather-cur{
+    margin-top: 50px;
+    margin-left: 100px ;
+}
